@@ -2,7 +2,36 @@
     font-family: "ProstoOne";
     src: url(./assets/Fonts/Prosto_One/ProstoOne-Regular.ttf);
 }
+
 @font-face {
     font-family: "Capriola";
     src: url(./assets/Fonts/Capriola/Capriola-Regular.ttf);
+}
+
+:root {
+    --font-title: "ProstoOne";
+    --font-answer: "Capriola";
+    --primary-color: rgb(255, 253, 247);
+    --secondary-color: rgb(246, 160, 45);
+    --third-color: rgb(255, 218, 117);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--primary-color);
+}
+
+h1,
+h2 {
+    color: var(--secondary-color);
+    font-family: var(--font-title);
+    font-weight: 100;
+}
+
+h2{
+    text-align: center;
 }

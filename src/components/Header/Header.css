@@ -1,0 +1,9 @@
+header {
+    border-bottom: 1px solid orange;
+    display: flex;
+    align-items: center;
+    img {
+        width: 80px;
+    }
+    
+}
