@@ -1,1 +1,14 @@
-// Il faut que tu créés le composant Card
+import './Card.css'
+
+interface Props {
+    emoji: string;
+}
+
+
+function Card({ emoji }: Props) {
+    return (
+        <button type="button">{emoji}</button>
+    )
+}
+
+export default Card
