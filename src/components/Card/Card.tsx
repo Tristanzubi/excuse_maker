@@ -1,1 +1,5 @@
-// Il faut que tu créés le composant Card
+function card() {
+
+}
+
+export default card;
