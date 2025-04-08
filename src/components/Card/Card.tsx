@@ -3,14 +3,21 @@ import './Card.css'
 
 interface Props {
     emoji: string;
+    getExcuse: (index: number) => void;
+    index: number;
+    
+
+    
 }
 
 
-function Card({ emoji }: Props) {
+function Card({ emoji, getExcuse, index }: Props) {
     return (
-        <button type="button"><p>{emoji}</p></button>
+        <button type="button" onClick={() => getExcuse(index)} key={emoji}>
+            <p>{emoji}</p>
+        </button>
     )
 }
 
-export default Card
+export default Card;
 
