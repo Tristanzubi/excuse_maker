@@ -84,7 +84,6 @@ function App() {
   }
   const result = getRandomItem(excuseArray[0].answer);
 
-
   return (
     <>
       <Header />
