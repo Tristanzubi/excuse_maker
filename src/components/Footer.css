@@ -1,0 +1,7 @@
+footer {
+    border-top: var(--secondary-color) solid 1px;
+    text-align: center;
+    font-family: var(--font-title);
+    color: var(--secondary-color);
+    font-weight: 100;
+}
