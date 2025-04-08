@@ -7,7 +7,7 @@ interface Props {
 
 function Card({ emoji }: Props) {
     return (
-        <button type="button">{emoji}</button>
+        <button type="button"><p>{emoji}</p></button>
     )
 }
 
