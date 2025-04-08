@@ -4,4 +4,12 @@ footer {
     font-family: var(--font-title);
     color: var(--secondary-color);
     font-weight: 100;
+
 }
+
+@media (min-width: 800px) {
+    footer {
+        height: 10vh;
+
+    }
+  }

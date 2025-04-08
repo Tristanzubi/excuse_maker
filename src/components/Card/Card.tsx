@@ -13,6 +13,7 @@ interface Props {
 
 function Card({ emoji, getExcuse, index }: Props) {
     return (
+
         <button type="button" onClick={() => getExcuse(index)} key={emoji}>
             <p>{emoji}</p>
         </button>
