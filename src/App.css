@@ -29,6 +29,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
 }
 
 h1,
@@ -47,9 +49,30 @@ h2 {
     -webkit-filter: drop-shadow(0px 2px 3px #6e6e6e);
     -moz-filter: drop-shadow(0px 2px 3px #6e6e6e);
     background-color: var(--third-color);
+    font-family: var(--font-answer);
+    font-weight: 100;
     width: 80vw;
     text-align: center;
     border-radius: 10px;
     padding: 20px;
     font-size: 1.3rem;
+}
+
+@media (min-width: 800px) {
+    main {
+        height: 75vh;
+        justify-content: space-evenly;
+    
+        h2 {
+            font-size: 2rem;
+        }
+
+        .answer {
+            width: 50%;
+            font-size: 1.5rem;
+            min-width: 500px;
+            min-height: 100px;
+        }
+    }
+
 }

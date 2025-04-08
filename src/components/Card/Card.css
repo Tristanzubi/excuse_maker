@@ -2,6 +2,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    row-gap: 15px;
+    column-gap: 10px;
 
 }
 
@@ -15,10 +17,30 @@ button {
     background-color: var(--third-color);
     border-radius: 10px;
     text-align: center;
-    margin: 0 0 20px 0;
 
     p {
         font-size: 3rem;
         margin: 0;
     }
+}
+
+@media (min-width: 800px) {
+    section {
+        flex-wrap: nowrap;
+        display: grid;
+        grid-template-columns: repeat(5, 2fr);
+        gap: 30px;
+    }
+
+    button {
+        width: 150px;
+        height: 100px;
+
+        p {
+            font-size: 4rem;
+
+        }
+
+    }
+
 }
