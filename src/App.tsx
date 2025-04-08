@@ -76,18 +76,19 @@ const excuseArray = [
 
 
 function App() {
-  const [excuse, setExcuse] = useState("");
+  const [excuse, setExcuse] = useState<string>("");
 
-  function getRandomItem() {
-    const randomIndex = Math.floor(Math.random() * 4);
-    console.log(randomIndex)
-    return excuse[randomIndex];
+  function getRandomItem(answers: string[]): string {
+    const randomIndex = Math.floor(Math.random() * answers.length);
+    return answers[randomIndex];
   }
+
   const getExcuse = (index: number) => {
     const foundElement = excuseArray[index];
     const randomExcuse = getRandomItem(foundElement.answer);
     setExcuse(randomExcuse);
   };
+
 
   return (
     <>
@@ -96,10 +97,14 @@ function App() {
       <main>
         <h2>L'art de l'excuse, à portée de clic !</h2>
         <section>
-          {excuseArray.map((element) => {
+          {excuseArray.map((element, index) => {
 
             return (
-              <Card emoji={element.emoji} getRandomItem={getRandomItem} index={index} getExcuse={getExcuse}  />
+              <Card 
+                key={element.emoji} 
+                emoji={element.emoji}
+                index={index} 
+                getExcuse={getExcuse}  />
             )
           })}
         </section>
