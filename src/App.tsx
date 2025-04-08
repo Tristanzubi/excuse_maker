@@ -84,6 +84,7 @@ function App() {
   }
   const result = getRandomItem(excuseArray[0].answers);
 
+
   return (
     <>
       <Header />
@@ -99,7 +100,7 @@ function App() {
             )
           })}
         </section>
-        <p>{result}</p>
+        <p className='answer'>{result}</p>
       </main>
       {/* <Footer /> */}
     </>
