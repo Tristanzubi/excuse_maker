@@ -69,35 +69,33 @@ const excuseArray = [
     "🎭 Mon partenaire de danse m’a ghosté… il a valsé avec mon honneur."]
    },
   
+
 ];
 
 
 function App() {
 
-  
-  function getRandomItem(answer: string[]): string {
 
-    const randomIndex = Math.floor(Math.random() * answer.length);
+  function getRandomItem(answers: string[]) {
 
-    const item = answer[randomIndex];
+    const randomIndex = Math.floor(Math.random() * answers.length);
 
-    return item;
-}
+    return answers[randomIndex];
+  }
+  const result = getRandomItem(excuseArray[0].answers);
 
-
-const result = getRandomItem(excuseArray[0].answer);
-console.log(result);
-  
   return (
     <>
+      <Header />
 
-      <Header/>
       <main>
         <h2>L'art de l'excuse, à portée de clic !</h2>
         <section>
           {excuseArray.map((element) => {
-            return(
-              <Card emoji={element.emoji}/>
+
+            return (
+              <Card emoji={element.emoji} />
+
             )
           })}
         </section>

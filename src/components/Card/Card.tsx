@@ -1,12 +1,16 @@
 
+import './Card.css'
+
 interface Props {
-    emoji: string
+    emoji: string;
 }
+
 
 function Card({ emoji }: Props) {
-  return (
-    <button type="button">{emoji}</button>
-  )
+    return (
+        <button type="button">{emoji}</button>
+    )
 }
 
-export default Card;
+export default Card
+
