@@ -1,3 +1,4 @@
+
 import './Card.css'
 
 interface Props {
@@ -12,3 +13,4 @@ function Card({ emoji }: Props) {
 }
 
 export default Card
+
