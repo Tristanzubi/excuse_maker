@@ -25,6 +25,12 @@ body {
     background-color: var(--primary-color);
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1,
 h2 {
     color: var(--secondary-color);
@@ -32,6 +38,18 @@ h2 {
     font-weight: 100;
 }
 
-h2{
+h2 {
     text-align: center;
+}
+
+.answer {
+    filter: drop-shadow(0px 2px 3px #6e6e6e);
+    -webkit-filter: drop-shadow(0px 2px 3px #6e6e6e);
+    -moz-filter: drop-shadow(0px 2px 3px #6e6e6e);
+    background-color: var(--third-color);
+    width: 80vw;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.3rem;
 }

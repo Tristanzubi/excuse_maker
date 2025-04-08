@@ -1,0 +1,24 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+button {
+    filter: drop-shadow(0px 2px 3px #6e6e6e);
+    -webkit-filter: drop-shadow(0px 2px 3px #6e6e6e);
+    -moz-filter: drop-shadow(0px 2px 3px #6e6e6e);
+    width: 100px;
+    height: 70px;
+    border-style: none;
+    background-color: var(--third-color);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 0 20px 0;
+
+    p {
+        font-size: 3rem;
+        margin: 0;
+    }
+}
