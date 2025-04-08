@@ -1,5 +1,12 @@
-function card() {
 
+interface Props {
+    emoji: string
 }
 
-export default card;
+function Card({ emoji }: Props) {
+  return (
+    <button type="button">{emoji}</button>
+  )
+}
+
+export default Card;
