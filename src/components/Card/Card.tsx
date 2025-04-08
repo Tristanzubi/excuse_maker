@@ -1,1 +1,12 @@
-// Il faut que tu créés le composant Card
+
+interface Props {
+    emoji: string
+}
+
+function Card({ emoji }: Props) {
+  return (
+    <button type="button">{emoji}</button>
+  )
+}
+
+export default Card;
