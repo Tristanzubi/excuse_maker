@@ -82,7 +82,7 @@ function App() {
 
     return answers[randomIndex];
   }
-  const result = getRandomItem(excuseArray[0].answers);
+  const result = getRandomItem(excuseArray[0].answer);
 
   return (
     <>
