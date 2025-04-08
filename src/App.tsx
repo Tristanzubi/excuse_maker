@@ -99,7 +99,7 @@ function App() {
           {excuseArray.map((element) => {
 
             return (
-              <Card emoji={element.emoji} getRandomItem={getRandomItem} index={index} getExcuse={getExcuse}  />
+              <Card emoji={element.emoji} getRandomItem={getRandomItem} index={index} getExcuse={getExcuse} key={index} />
             )
           })}
         </section>

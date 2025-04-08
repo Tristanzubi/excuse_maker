@@ -5,6 +5,7 @@ interface Props {
     emoji: string;
     getRandomItem: () => string;
     index: number;
+    getExcuse: (index: number) => void;
     
 
     
@@ -13,7 +14,7 @@ interface Props {
 
 function Card({ emoji, getRandomItem, index }: Props) {
     return (
-        <button type="button" onClick={getRandomItem} key={emoji}><p>{emoji}</p></button>
+        <button type="button" onClick={getRandomItem} key={index}><p>{emoji}</p></button>
     )
 }
 
