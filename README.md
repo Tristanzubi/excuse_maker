@@ -1,18 +1,34 @@
-## Passage des props !
+# 🧠 Excuse Maker
 
-![simpsons_challenge](https://github.com/user-attachments/assets/72590e2a-3e74-4c94-b015-a9c97101f238)
+Bienvenue sur **Excuse Maker**, une application web développée avec **React** qui génère des excuses aléatoires pour toutes les situations imaginables (ou presque 😅).
 
+## 📚 Contexte
 
-Dans cet exercice, tu vas devoir :
+Ce projet est **le tout premier que j’ai réalisé en React**, en binôme dans le cadre de ma formation à la **Wild Code School**.  
+Nous avons eu **une journée seulement** pour concevoir, coder et présenter l’application.
 
-1. Créer le composant `Card` (le fichier est déjà créé, tu n'as plus qu'à le compléter);
-2. Appeler ce composant `Card` dans ton composant `App`
-3. Passer les informations `firstName`, `lastName` et `image`. C'est ce qu'on appelle le passage de props !
-4. A la finale, ton application est en mesure de rendre deux cartes, l'une affichant Bart Simpson, et la seconde affichant Homer Simpson 😉
+## 🚀 Fonctionnalités
 
-💡 Besoin d'un conseil ?
+- 🎲 À chaque clic sur l’emoji, **une excuse est choisie aléatoirement parmi un tableau de 5 excuses** et affichée à l’écran.
+- 🎨 Interface simple, responsive et accessible.
+- 🔄 Rafraîchissement d'une excuse d’un simple clic.
 
-Pour avoir un exemple sur la façon de passer les props, réfère-toi à l'image ci-dessous 😊
+## 🛠️ Technologies utilisées
 
-![Props](https://github.com/user-attachments/assets/b53af959-d42c-4f85-af5b-7b33ae765108)
+- [React](https://reactjs.org/)
+- CSS (vanilla)
+- Vite 
 
+## 📷 Aperçu
+
+*(Ajoute une capture d’écran ici si tu en as une)*
+
+![screenshot](./screenshot.png)
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/ton-pseudo/excuse-maker.git
+cd excuse-maker
+npm install
+npm run dev
