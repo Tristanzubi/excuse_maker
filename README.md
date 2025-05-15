@@ -21,7 +21,6 @@ Nous avons eu **une journée seulement** pour concevoir, coder et présenter l�
 
 ## 📷 Aperçu
 Excuse_maker
-*(Ajoute une capture d’écran ici si tu en as une)*
 ![Excuse-maker-Desktop](https://github.com/user-attachments/assets/eb89d3b7-c028-48b1-aca1-aa3cdb567a99)
 ![Excuse-maker-Mobile](https://github.com/user-attachments/assets/b126604b-fb8c-4a77-851c-7ccd142c37b9)
 
