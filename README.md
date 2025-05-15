@@ -20,15 +20,24 @@ Nous avons eu **une journée seulement** pour concevoir, coder et présenter l�
 - Vite 
 
 ## 📷 Aperçu
-
+Excuse_maker
 *(Ajoute une capture d’écran ici si tu en as une)*
+![Excuse-maker-Desktop](https://github.com/user-attachments/assets/eb89d3b7-c028-48b1-aca1-aa3cdb567a99)
+![Excuse-maker-Mobile](https://github.com/user-attachments/assets/b126604b-fb8c-4a77-851c-7ccd142c37b9)
 
-![screenshot](./screenshot.png)
+# 📦 Installation
 
-## 📦 Installation
+Clonez le dépôt en utilisant soit HTTPS, soit SSH selon votre configuration :
 
 ```bash
+# Avec HTTPS (recommandé pour la plupart des utilisateurs)
 git clone https://github.com/ton-pseudo/excuse-maker.git
-cd excuse-maker
+
+# Avec SSH (si vous avez configuré une clé SSH sur GitHub)
+git clone git@github.com:ton-pseudo/excuse-maker.git
+cd excuse_maker
 npm install
 npm run dev
+
+
+
